@@ -5,6 +5,9 @@ GO
 CREATE DATABASE WildPathDataBase
 
 GO
+USE WildPathDataBase
+
+GO
 CREATE TABLE DifficultyLevels 
 (
 [Id] INT IDENTITY PRIMARY KEY, 
