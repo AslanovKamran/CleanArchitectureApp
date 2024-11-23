@@ -1,7 +1,7 @@
 ﻿using WildPathApp.Infrastructure.Repositories;
 using WildPathApp.Application.Interfaces;
 using WildPathApp.Application.Services;
-using WildPathApp.Core.Interfaces;
+using WildPathApp.Core.Repositories;
 
 namespace WildPathApp.API.Extensions;
 

@@ -1,6 +1,6 @@
 ﻿using WildPathApp.Core.Domain.Models;
 
-namespace WildPathApp.Core.Interfaces;
+namespace WildPathApp.Core.Repositories;
 
 public interface IDifficultyLevelRepository
 {

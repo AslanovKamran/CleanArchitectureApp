@@ -1,8 +1,7 @@
 ﻿namespace WildPathApp.Core.Domain.Models;
 
-public class Event
+public class Event : BaseModel
 {
-    public int Id { get; set; }
     public string Name { get; set; } = string.Empty;
     public string Description { get; set; } = string.Empty;
     public DateTime StartsAt { get; set; }
@@ -14,6 +13,5 @@ public class Event
     public string DifficultyLevelDescription { get; set; } = string.Empty;
     public decimal Price { get; set; }
     public string Location { get; set; } = string.Empty;
-    public DateTime CreatedAt { get; set; }
-    public DateTime? ModifiedAt { get; set; }
+
 }

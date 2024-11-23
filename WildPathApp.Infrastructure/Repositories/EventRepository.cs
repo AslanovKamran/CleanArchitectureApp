@@ -2,10 +2,10 @@
 using WildPathApp.Core.Domain.CustomExceptions;
 using WildPathApp.Infrastructure.Database;
 using WildPathApp.Core.Domain.Models;
-using WildPathApp.Core.Interfaces;
 using Microsoft.Data.SqlClient;
 using System.Data;
 using Dapper;
+using WildPathApp.Core.Repositories;
 
 namespace WildPathApp.Infrastructure.Repositories;
 public class EventRepository(DatabaseConnection dbConnection) : IEventRepository

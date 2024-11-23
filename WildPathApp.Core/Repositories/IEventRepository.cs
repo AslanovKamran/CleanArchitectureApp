@@ -1,7 +1,7 @@
 ﻿using WildPathApp.Core.Domain.Requests.EventRequests;
 using WildPathApp.Core.Domain.Models;
 
-namespace WildPathApp.Core.Interfaces;
+namespace WildPathApp.Core.Repositories;
 
 public interface IEventRepository
 {

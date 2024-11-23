@@ -3,7 +3,7 @@ using WildPathApp.Core.Domain.CustomExceptions;
 using WildPathApp.Application.Helpers.Mappers;
 using WildPathApp.Application.Interfaces;
 using WildPathApp.Application.DTO;
-using WildPathApp.Core.Interfaces;
+using WildPathApp.Core.Repositories;
 
 namespace WildPathApp.Application.Services;
 public class EventService(IEventRepository eventRepository) : IEventService
